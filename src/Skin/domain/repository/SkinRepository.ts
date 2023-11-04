@@ -4,7 +4,7 @@ import { User } from "../entities/User";
 
 export interface SkinRepository {
     getAvailableSkin(): Promise<Skin[]>;
-    createSkin(id:Skin): Promise<Skin[]>;
+    buySkin(skin: Skin): Promise<Skin[]>;
     getUserSkin(idUser:User, id:Skin): Promise<Skin[]>;
     updateUserSkin(idUser: User, id:Skin): Promise<Skin[]>;
     deleteUserSkin(idUser: User, id: Skin): Promise<Skin[]>;

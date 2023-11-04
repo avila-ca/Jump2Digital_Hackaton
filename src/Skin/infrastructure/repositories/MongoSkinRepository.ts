@@ -8,4 +8,7 @@ export class MongoSkinRepository implements SkinRepository {
         const skinsAvailableParsed = JSON.parse(skinsAvailable);
         return skinsAvailableParsed;
     }
+    async async buySkin(id: Skin): Promise<Skin[]> {
+        const boughtSkin = await 
+    }
 }

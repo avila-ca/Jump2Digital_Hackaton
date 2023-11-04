@@ -1,4 +1,5 @@
 import { MongoSkinRepository } from "./repositories/MongoSkinRepository";
-import { skinService } from "../application/skinService";
+import { SkinService } from "../application/skinService";
 
-const skin 
+const mongoSkinRepository = new MongoSkinRepository();
+export const skinUserService = new SkinService(mongoSkinRepository);
