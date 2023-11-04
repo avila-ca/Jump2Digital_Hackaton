@@ -1,7 +1,22 @@
-{
+[{
     "id": 1,
     "name": "forzudo",
     "typeSkin":"barbaro",
     "price": 20,
     "colour": "verde"
+},
+{
+    "id": 2,
+    "name": "carterista"
+    "typeSkin":"ladron",
+    "price": 23,
+    "colour": "azul"
+},
+{
+    "id": 3,
+    "name": "curandero",
+    "typeSkin":"clerigo",
+    "price": 29,
+    "colour": "amarillo"
 }
+]
